@@ -1,3 +1,2 @@
 # banabala_wiki
-my wiki pages
-~
+只是把放在VPS上的个人wiki搬到github上

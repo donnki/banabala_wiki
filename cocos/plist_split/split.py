@@ -1,8 +1,9 @@
-
 #! /usr/lical/bin/python
 import os,Image,sys
 from xml.etree import ElementTree
 
+#网友分享过一段python代码 测试后有点问题，比如有旋转的图片会分割出错。
+# 以下是改过的，应该可以正常运行：目录下有item.plist和item.png文件，保存以下代码为split.py，然后执行命令：python split.py item
 def tree_to_dict(tree):
     d = {}
     for index, item in enumerate(tree):
